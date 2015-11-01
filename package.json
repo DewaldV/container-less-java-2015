@@ -1,0 +1,19 @@
+{
+  "name": "containter-less-java",
+  "version": "1.0.0",
+  "description": "Presentation Deck for Java Conference 2015",
+  "main": "deck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DewaldV/container-less-java-2015.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DewaldV/container-less-java-2015/issues"
+  },
+  "homepage": "https://github.com/DewaldV/container-less-java-2015#readme"
+}
