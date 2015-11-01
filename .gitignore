@@ -1,5 +1,8 @@
 .node-version
 
+#bower
+bower_components
+
 #Node
 logs
 *.log

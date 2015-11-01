@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DewaldV/container-less-java-2015/issues"
   },
-  "homepage": "https://github.com/DewaldV/container-less-java-2015#readme"
+  "homepage": "https://github.com/DewaldV/container-less-java-2015#readme",
+  "devDependencies": {
+    "wiredep": "^2.2.2"
+  }
 }

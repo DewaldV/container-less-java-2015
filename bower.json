@@ -1,0 +1,24 @@
+{
+  "name": "containter-less-java",
+  "description": "Presentation Deck for Java Conference 2015",
+  "main": "deck.js",
+  "authors": [
+    "DewaldV <dewald.viljoen@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DewaldV/container-less-java-2015",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "impress.js": "~0.5.3"
+  }
+}
