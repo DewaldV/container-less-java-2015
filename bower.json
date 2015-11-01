@@ -1,7 +1,6 @@
 {
   "name": "containter-less-java",
   "description": "Presentation Deck for Java Conference 2015",
-  "main": "deck.js",
   "authors": [
     "DewaldV <dewald.viljoen@gmail.com>"
   ],
@@ -20,5 +19,10 @@
   ],
   "dependencies": {
     "impress.js": "~0.5.3"
+  },
+  "overrides": {
+    "impress.js": {
+      "main": "js/impress.js"
+    }
   }
 }
