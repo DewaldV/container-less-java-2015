@@ -23,11 +23,11 @@ pre {
 }
 
 b {
-  font-weight: bold;
+  font-weight: bold;{}
 }
 .step {
   position: relative;
-  width: 1200px;
+  width: 1024px;
   height: 700px;
   margin: 20px auto;
   -webkit-box-sizing: border-box;

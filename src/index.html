@@ -164,14 +164,14 @@ public class SimpleGreeting implements Greeting {
         <h1>Why does it need to be so complicated?</h1>
       </div>
     </div>
-    <div class="step stay-opaque" data-x="-2000" data-y="-2000" data-z="0">
+    <div id="monolith" class="step stay-opaque" data-x="-2000" data-y="-2000" data-z="0">
       <div class="step-element top-left align-center">
         <h1>The Application Server Monolith Paradigm</h1>
       </div>
     </div>
     <div class="step invisible" data-x="-2000" data-y="-2000" data-z="0">
       <div class="step-element align-center" style="top: 300px">
-        <h2>or, why do I need 300MB - 1.5GB of stuff and 100s of lines of XML to run my 5MB of business logic?</h2>
+        <h2>or, why do I need 100s of MBs of stuff and 100s of lines of XML to run my 5MB of business logic?</h2>
       </div>
     </div>
     <div class="step" data-x="-4000" data-y="-4000" data-z="0">
@@ -197,7 +197,7 @@ ssh prod@production "java -jar /opt/app/ProductService.jar"
         <h1>Wouldn't life be simpler?</h1>
       </div>
     </div>
-    <div class="step stay-opaque" data-x="-6000" data-y="-5000" data-z="0">
+    <div id="simplify" class="step stay-opaque" data-x="-6000" data-y="-5000" data-z="0">
       <div class="step-element align-center">
         <h1>The key is to simplify</h1>
       </div>
@@ -220,7 +220,7 @@ ssh prod@production "java -jar /opt/app/ProductService.jar"
         <h2>or, Java SE for Enterprise (TM)</h2>
       </div>
     </div>
-    <div class="step" data-x="-6000" data-y="-8000" data-z="-2000">
+    <div id="boot" class="step" data-x="-6000" data-y="-8000" data-z="-2000">
       <div class="step-element">
         <img src="images/spring-boot-logo.png"></img>
         <h2>Spring Boot makes it easy to create stand-alone, <b>production-grade</b> Spring based Applications that you can "just run".</h2>
@@ -266,11 +266,13 @@ ssh prod@production "java -jar /opt/app/ProductService.jar"
       <div class="step-element top-left align-center">
         <h1>Thanks!</h1>
       </div>
+      <div class="step-element align-center" style="top: 200px">
+        <h2><i class="fa fa-github"></i> https://github.com/DewaldV/j-sa-2015</h2>
+      </div>
       <div class="step-element" style="left: 0px; top: 400px">
         <ul class="fa-ul">
           <li><i class="fa-li fa fa-user"></i>Dewald Viljoen</li>
           <li><i class="fa-li fa fa-twitter"></i>@dewald_v</li>
-          <li><i class="fa-li fa fa-github"></i>https://github.com/DewaldV</li>
           <li><i class="fa-li fa fa-envelope"></i>dewaldv@thoughtworks.com</li>
         </ul>
       </div>
